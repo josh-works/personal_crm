@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+Working through https://www.codewithjason.com/complete-guide-to-rails-testing/
 
-* Ruby version
+Adding Faker, basic migrations, tests, model, controllers.
 
-* System dependencies
 
-* Configuration
 
-* Database creation
+### Rspec cheatsheets
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- https://devhints.io/rspec
+- https://gist.github.com/eliotsykes/5b71277b0813fbc0df56
