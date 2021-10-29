@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Brag Entries</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Description</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @brag_entries.each do |brag_entry| %>
+      <tr>
+        <td><%= brag_entry.title %></td>
+        <td><%= brag_entry.description %></td>
+        <td><%= link_to 'Show', brag_entry %></td>
+        <td><%= link_to 'Edit', edit_brag_entry_path(brag_entry) %></td>
+        <td><%= link_to 'Destroy', brag_entry, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Brag Entry', new_brag_entry_path %>

@@ -1,0 +1,2 @@
+class BragEntry < ApplicationRecord
+end
