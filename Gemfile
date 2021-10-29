@@ -53,4 +53,5 @@ group :development, :test do
   gem 'capybara'
   gem 'webdrivers'
   gem 'faker'
+  gem 'pry'
 end
