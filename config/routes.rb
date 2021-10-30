@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :authors
   resources :brag_entries
   resources :contacts
   get 'hello_world/index'
