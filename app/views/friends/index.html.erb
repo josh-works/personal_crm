@@ -1,0 +1,17 @@
+<h1>All Friends</h1>
+
+<%= @friends.each do |f| %>
+  <ul>
+    <li><%= f.name %></li>
+    <li><%= f.description %></li>
+    <li><%= f.address %></li>
+    <li><%= f.home_lat %></li>
+    <li><%= f.home_long %></li>
+    <li><%= f.where_we_met %></li>
+    <li><%= f.strava_route_where_we_met %></li>
+  </ul>
+<% end %>
+
+<div class="">
+  <%= link_to "Create new Friend entry", new_friend_path %>
+</div>
