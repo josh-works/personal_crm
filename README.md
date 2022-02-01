@@ -33,9 +33,20 @@ set root there. Localhost renders. Lets get some views for data entry via the we
 
 So far, so good. I've got an index, with all friends rendered, and a link to "create new friend entry". Lets create the form for that next...
 
-but first, I'll try to send this boulder problem on the other side on the tension board.
+but first, I'll try to send this boulder problem on the other side on the tension board...
 
+almost got it...
 
+OK, ironed out a basic page that can accept an entry. Ugly as hell.
+
+Futzed with params and route paths a bit to get everything happy. https://stevepolito.design/blog/rails-authentication-from-scratch/#step-1-build-user-model has been SO HELPFUL for refreshing my memory of everything. I kinda wanna work through his guide twice. Actually, I probably should. 
+
+anyway, next...
+
+- flesh out the rest of the form
+- get at least links in place to google maps, strava, third party sources
+- add tailwind because why fucking not, right?
+- gonna need to add logins and such, so I can futz around w/this on Heroku but have only my data, and not display it to the world. 
 
 
 ## 2021-10-28

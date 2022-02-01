@@ -1,0 +1,10 @@
+<%= form_with model: @friend, url: friends_path do |form| %>
+  <div class="">
+    <%= form.label :name %>
+    <%= form.text_field :name %>
+  </div>
+  
+  <div class="">
+    <%= form.submit "Create Friend Entry" %>
+  </div>
+<% end %>
